@@ -1,0 +1,7 @@
+stages:
+  - name: action_warm_up_sft
+    dataset: action_warm_up_sft.jsonl
+    epochs: 2
+    lr: 1e-5
+    batch_size: 4
+    max_length: 4096

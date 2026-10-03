@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Local regression tests and recorded fixtures
+/tests/
+
+# Training outputs
+output/
+*.pt
+*.bin
+*.safetensors
+
+# Data (large files)
+/data/
+
+# Logs
+wandb/
+runs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Eval results
+eval_report_*.json
+infer_results_*.json
+
+# Git worktrees
+.worktrees/

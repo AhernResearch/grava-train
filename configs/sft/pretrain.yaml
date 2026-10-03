@@ -1,0 +1,7 @@
+stages:
+  - name: pretrain
+    dataset: pretrain.jsonl
+    epochs: 1
+    lr: 1e-5
+    batch_size: 4
+    max_length: 4096
